@@ -1,0 +1,17 @@
+.App {
+  margin: auto;
+  height: 480px;
+  width: 600px;
+  margin-top: 50px;
+  padding-top: 10px;
+  text-align: center;
+  border: 1px solid #faa;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "Effra";
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+}
