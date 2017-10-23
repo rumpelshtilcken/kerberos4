@@ -1,7 +1,9 @@
 import React from 'react';
 
+import style from './index.css';
+
 const Client = () => (
-    <div>
+    <div className="containerClient">
         this is client
     </div>
 );
