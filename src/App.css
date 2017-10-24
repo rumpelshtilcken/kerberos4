@@ -1,12 +1,10 @@
 .App {
   margin: auto;
-  height: 480px;
-  width: 600px;
-  margin-top: 50px;
-  padding-top: 10px;
-  text-align: center;
-  border: 1px solid #faa;
-  border-radius: 8px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
 }
 
 h1 {
@@ -14,4 +12,6 @@ h1 {
   font-weight: bold;
   font-size: 20px;
   margin: auto;
+  padding: 20px 0 50px;
+  text-align: center;
 }
