@@ -1,0 +1,61 @@
+.signUpModal {
+    width: 356px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    outline: none;
+    overflow: auto;
+    margin: auto;
+  
+    /* @media (min-width: 768px) {
+      min-height: 500px;
+      height: 500px;
+      width: 456px;
+    } */
+}
+
+.signUpOverlayModal {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.registrationForm {
+    text-align: center;
+}
+
+input {
+    border: none;
+    height: 30px;
+    width: 300px;
+    color: black;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+/* 
+.btn {
+    height: 30px;
+    width: 120px;
+    color: black;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}
+
+*/
+
+h2 {
+    font-weight: bold;
+    font-family: "Effra";
+    font-size: 17px;
+}

@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
-import Client from './client/client';
-import Form from './components/form';
+import SignUp from './components/SignUp';
+import SignIn from './components/SignIn';
 import './App.css';
 
 class App extends Component {
+  state = {
+    isOpen: false
+  }
+
+  handleOpenSignUpModal = ()=> this.setState({ isOpen: true});
+
   render() {
     return (
       <MuiThemeProvider>
       <div className="App">
         <h1>This is Kerberos UI</h1>
-        <Form/>
-        <div className="box">
-          <Client />
-          <Client />
-          <Client />
-        </div>
+        <SignIn  handleOpenSignUpModal={this.handleOpenSignUpModal}/>
+        <SignUp isOpen = {this.state.isOpen}/>
       </div>
       </MuiThemeProvider>
     );
